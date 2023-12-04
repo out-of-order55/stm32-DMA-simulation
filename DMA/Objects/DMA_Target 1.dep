@@ -1,0 +1,60 @@
+Dependencies for Project 'DMA', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x532BB228)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 518" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (.\SYSTEM\delay\delay.c)(0x5822B9A4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (SYSTEM\delay\delay.h)(0x5822B9A4)
+I (.\SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+F (.\SYSTEM\sys\sys.c)(0x5822B9AC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+F (.\SYSTEM\usart\usart.c)(0x655C6D55)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (SYSTEM\usart\usart.h)(0x5822B9A4)
+I (.\SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+F (.\src\test.c)(0x655F464F)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
+I (.\SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\usart\usart.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (.\SYSTEM\delay\delay.h)(0x5822B9A4)
+I (.\LED\led.h)(0x655C09FD)
+I (.\TIMER\timer.h)(0x5822B9BF)
+I (.\DMA\dma.h)(0x5822B9A4)
+F (.\LED\led.c)(0x655C09EE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (LED\led.h)(0x655C09FD)
+I (.\SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+F (.\TIMER\timer.c)(0x655F062A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (TIMER\timer.h)(0x5822B9BF)
+I (.\SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+I (.\LED\led.h)(0x655C09FD)
+I (.\SYSTEM\usart\usart.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+F (.\DMA\dma.c)(0x655F379C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\LED -I .\TIMER -I .\DMA-I C:\Users\Legion\Desktop\MCU_DMA\DMA\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="518" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\dma.o --omf_browse .\objects\dma.crf --depend .\objects\dma.d)
+I (DMA\dma.h)(0x5822B9A4)
+I (.\SYSTEM\sys\sys.h)(0x5822B9A4)
+I (.\SYSTEM\sys\stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\sys\core_cm3.h)(0x5822B9A4)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (.\SYSTEM\sys\system_stm32f10x.h)(0x5822B9A4)
+I (.\SYSTEM\delay\delay.h)(0x5822B9A4)

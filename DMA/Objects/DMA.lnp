@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_md.o"
+".\objects\delay.o"
+".\objects\sys.o"
+".\objects\usart.o"
+".\objects\test.o"
+".\objects\led.o"
+".\objects\timer.o"
+".\objects\dma.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DMA.map" -o .\Objects\DMA.axf
